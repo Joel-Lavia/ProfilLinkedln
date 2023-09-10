@@ -1,11 +1,39 @@
+
+body{
+    
+}
 header{
-    background:rgb(240, 196, 196);
+    
 }
 nav{
     display: flex;
+    position: fixed;
+    justify-content: space-around; 
+    background:white;
+    border: 1px solid white;
+    width: 100%;
+    top: 0; 
+    left: 0;
+    right: 0;
     
 }
 .part1{
 display: flex;
 list-style-type: none;
+gap: 15px;
+}
+.part2{
+gap:30px;
+
+}
+.dimension{
+    width:30px; 
+    height:30px;
+}
+input{
+    width:300px; 
+    height:30px; 
+}
+main{
+    margin: 50px;
 }
