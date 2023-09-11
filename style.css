@@ -1,14 +1,18 @@
+ html,body{
+margin:0;
+padding:0;
+ }
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
  nav{
     display: flex;
     justify-content: space-around; 
     background: white;
-    border: 1px solid white;
-    /* width: 100%;
-    top: 0; 
-    left: 0;
-    right: 0;
-    margin: 10px;
-    */ 
+    border: 1px solid rgb(255, 255, 255); 
  }
 .part1{
 display: flex;
@@ -28,8 +32,10 @@ height:30px;
 background-color:rgba(214, 214, 214, 0.851);
 }
 main{
+    background-color: rgba(255, 251, 251, 0.994);
     width:80%;
     margin: auto;
+    margin-top:90px;
 }
 #picture{
 background-image: url(1686295905664.jfif);
@@ -45,7 +51,9 @@ border-radius:10px;
 }
 #button button{
 border-radius:20px;
-padding:5px;
+padding:10px;
+border-style: none;
+font-weight:bold;
 }
 #connexion{
 background-color: blue;
@@ -64,10 +72,53 @@ text-decoration: none;
     height:600px; 
 }
 #selection{
-    display: flex;
+display: flex;
 }
 #selection img{
-    width:200px;
-    height: 200px;   
+    max-width: 100%;
+    max-height:100%;   
 }
+.activite{
+border-bottom: solid 1px grey;
+}
+.activite button{
+border-radius:20px;
+padding:8px;
+border-style: none;
+font-weight:bold;
+}
+.img-activite{
+height: 90px;
+}
+#plus{
+padding:7px;
+margin-left:300px;
+margin-top:15px;
+background-color: white;
+border-style: none;
+}
+
+.boxsection{
+border: solid 1px grey;
+padding:12px;  
+border-radius:20px;
+margin-right:600px;
+margin-bottom:10px;
+}
+.boxsection2{
+    border: solid 1px grey;
+    padding:12px;  
+    border-radius:20px;
+    margin-right:1200px;
+    margin-bottom:10px;
+}
+#selection2 img{
+    display: flex;
+    width:100px;
+    height:100px;   
+}
+main #great-section1{
+    display: flex;
+}
+
 
