@@ -61,7 +61,13 @@ text-decoration: none;
 }
 #section1{
     width:1090px;
-    height:600px;
-   
+    height:600px; 
+}
+#selection{
+    display: flex;
+}
+#selection img{
+    width:200px;
+    height: 200px;   
 }
 
