@@ -1,7 +1,15 @@
- html,body{
-margin:0;
-padding:0;
+@font-face {
+    font-family: 'Segoe UI', sans-serif;
+    src: url("Segoe_UI/Segoe\ UI.ttf") format("truetype");
+}
+html{
+    margin:0px;
+    padding:0px;
+}
+body{
 background-color: rgb(232, 232, 232);
+font-family: 'Segoe UI', sans-serif;
+font-size:16px;
  }
  header {
     position: fixed;
@@ -13,7 +21,7 @@ background-color: rgb(232, 232, 232);
     display: flex;
     justify-content: space-around; 
     background: white;
-    border: 1px solid rgb(255, 255, 255); 
+    border: 1px solid rgb(255, 255, 255);
  }
 .part1{
 display: flex;
@@ -77,6 +85,8 @@ text-decoration: none;
     height:600px; 
 }
 #selection{
+max-width:80%;
+gap:12px;
 display: flex;
 }
 #selection img{
@@ -124,6 +134,7 @@ margin-bottom:10px;
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 
 
 
