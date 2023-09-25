@@ -135,7 +135,16 @@ margin-bottom:10px;
     justify-content: space-evenly;
     list-style-type: none;
 }
-
+.exp{
+width:40px; 
+height:40px;
+}
+.flextitle{
+display: flex;
+}
+.lead{
+    border-left:1px solid;
+}
 
 
 
