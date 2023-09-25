@@ -3,13 +3,15 @@
     src: url("Segoe_UI/Segoe\ UI.ttf") format("truetype");
 }
 html{
-    margin:0px;
-    padding:0px;
+    
 }
 body{
 background-color: rgb(232, 232, 232);
 font-family: 'Segoe UI', sans-serif;
-font-size:16px;
+font-size:15px;
+margin:0;
+padding:0;
+
  }
  header {
     position: fixed;
