@@ -1,6 +1,11 @@
 *{
-margin:0px;
-padding:0px;
+
+}
+.colorP{
+color: black;
+}
+p{
+color: gray;
 }
 @font-face {
     font-family: 'Segoe UI', sans-serif;
