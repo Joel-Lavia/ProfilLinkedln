@@ -61,7 +61,7 @@ border-radius:10px;
  list-style-type: none;
  gap: 20px;  
 }
-.buttons button{
+button{
 border-radius:20px;
 padding:10px;
 border-style: none;
