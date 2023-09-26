@@ -2,9 +2,6 @@
     font-family: 'Segoe UI', sans-serif;
     src: url("Segoe_UI/Segoe\ UI.ttf") format("truetype");
 }
-html{
-    
-}
 body{
 background-color: rgb(232, 232, 232);
 font-family: 'Segoe UI', sans-serif;
@@ -147,6 +144,10 @@ display: flex;
 .lead{
     border-left:1px solid;
 }
+.separate{
+    list-style-type: none;
+    gap:50px;
 
+}
 
 
