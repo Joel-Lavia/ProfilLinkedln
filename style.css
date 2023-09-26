@@ -56,12 +56,12 @@ margin-bottom:70px;
 height:270px;
 border-radius:10px;
 }
-#buttons{
+.buttons{
  display: flex;
  list-style-type: none;
  gap: 20px;  
 }
-#buttons li button{
+.buttons button{
 border-radius:20px;
 padding:10px;
 border-style: none;
@@ -105,14 +105,12 @@ font-weight:bold;
 height: 90px;
 }
  #plus{
-/* padding:7px;
-margin-left:300px;
-margin-top:15px;
-background-color: white;
- */
  border-style: none;
- display:flex;
- text-align: center;
+ background-color: white;
+ padding-top:15px;
+ padding-bottom:15px;
+ margin-left:350px;
+ font-weight: bold;
 
 } 
 
@@ -152,6 +150,10 @@ display: flex;
     list-style-type: none;
     gap:50px;
 
+}
+.buttonscompet{
+    border-radius:20px;
+    padding:10px;
 }
 
 
