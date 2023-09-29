@@ -1,0 +1,1 @@
+L''objectif du projet est de reproduire le profil LinkedIn de Tom hikari avec le HTML et CSS.
