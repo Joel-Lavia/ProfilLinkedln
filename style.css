@@ -1,8 +1,15 @@
 *{
- 
+ margin: 0;
+ padding: 0;
 }
 .colorP{
 color: black;
+}
+.you img{
+    width:40px; 
+height:40px;
+border-radius:120px;
+
 }
 p{
 color: gray;
@@ -24,18 +31,20 @@ font-size:15px;
 }
  nav{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
     background: white;
     border: 1px solid rgb(255, 255, 255);
+    padding-top:10px;
  }
 .part1{
 display: flex;
 list-style-type: none;
-gap: 15px;
-}
-.part2{
 gap:30px;
 }
+.part2{
+border-right:1px solid gray;
+}
+
 .dimension{
 width:30px; 
 height:30px;
