@@ -42,12 +42,6 @@ font-size:15px;
     gap:50px;
     background: white;
     padding:9px;
-
-    /* display: flex;
-    justify-content: space-evenly; 
-    
-    border: 1px solid rgb(255, 255, 255);
-    padding-top:10px; */
  }
 .part1{
 display: flex;
@@ -60,6 +54,11 @@ border-right:1px solid gray;
 .part3 a{
     display: flex;
     flex-direction: column;
+}
+.sizeimg img{
+border-radius:150px;
+max-width:30px;
+
 }
 
 .dimension{
@@ -83,12 +82,11 @@ main{
 }
 .picture{
 background-image: url(1686295905664.jfif);
-background-repeat: no-repeat;
-margin-bottom:70px;
-height:270px;
-border-radius:10px;
+background-repeat:no-repeat;
+background-size:contain;
+
 }
-.buttons{
+.buttonspresent{
  display: flex;
  list-style-type: none;
  gap: 20px;  
@@ -107,8 +105,8 @@ text-decoration: none;
 }
 .picture img{
     border-radius:120px;
-    margin-left:20px;
     margin-top:120px;
+    margin-left:20px;
     border:solid white;
 }
 #section1{
