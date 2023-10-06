@@ -117,8 +117,9 @@ text-decoration: none;
     height:600px; 
 } */
 figure{
-border-radius:5px;
-border: solid var(--color-gray) 1px;
+/* border-radius:10px;
+border: solid var(--color-gray) 1px; */
+
 }
 #selection{
 display: flex;
@@ -141,13 +142,10 @@ font-weight:bold;
 .img-activite{
 height: 90px;
 }
- #plus{
- border-style: none;
- background-color: white;
- padding-top:15px;
- padding-bottom:15px;
- margin-left:350px;
- font-weight: bold;
+ #plus a{
+ display:flex;
+ justify-content:center;
+ align-items:center;
 
 } 
 
