@@ -112,16 +112,22 @@ text-decoration: none;
     margin-left:20px;
     border:solid white;
 }
-#section1{
+/* #section1{
     width:1090px;
     height:600px; 
+} */
+figure{
+border-radius:5px;
+border: solid var(--color-gray) 1px;
 }
 #selection{
 display: flex;
+gap:20px;
 }
+
 #selection img[alt = "select"]{
-width:50%;
-height:50%;
+max-width:100%;
+max-height:50%;
 }
 .activite{
 border-bottom: solid 1px grey;
