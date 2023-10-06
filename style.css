@@ -1,6 +1,9 @@
 :root{
 --color-gray:gray;
 }
+.written-color{
+color:var(--color-gray);
+}
 *{
  margin: 0;
  padding: 0;
@@ -114,13 +117,11 @@ text-decoration: none;
     height:600px; 
 }
 #selection{
-max-width:80%;
-gap:12px;
 display: flex;
 }
-#selection img{
-    max-width: 100%;
-    max-height:100%;   
+#selection img[alt = "select"]{
+width:50%;
+height:50%;
 }
 .activite{
 border-bottom: solid 1px grey;
