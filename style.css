@@ -132,24 +132,28 @@ max-height:50%;
 }
 .activite{
 border-bottom: solid 1px grey;
+padding: 10px;
+margin: 10px;
 }
-.activite button{
+/* .buttons button{
 border-radius:20px;
 padding:8px;
 border-style: none;
 font-weight:bold;
-}
+} */
 .img-activite{
 height: 90px;
 }
- #plus{
+ .plus{
  display:flex;
  justify-content:center;
  align-items:center;
  padding: 10px;
+ font-weight: bold;
+ color:var(--color-gray);
 } 
-#plus:hover{
-    background-color: gray;
+.plus:hover{
+    background-color:#a19d9dbf;
 }
 
 .boxsection{
