@@ -94,7 +94,7 @@ background-size:contain;
  list-style-type: none;
  gap: 20px;  
 }
-button{
+.buttons{
 border-radius:20px;
 padding:10px;
 border-style: none;
@@ -142,12 +142,15 @@ font-weight:bold;
 .img-activite{
 height: 90px;
 }
- #plus a{
+ #plus{
  display:flex;
  justify-content:center;
  align-items:center;
-
+ padding: 10px;
 } 
+#plus:hover{
+    background-color: gray;
+}
 
 .boxsection{
 background-color: white;
