@@ -185,7 +185,11 @@ height:40px;
 display: flex;
 }
 .lead{
-    border-left:1px solid;
+margin: 20px;
+border: #a19d9dbf;
+}
+.lead ul li{
+   
 }
 .separate{
     list-style-type: none;
@@ -195,4 +199,13 @@ display: flex;
 .buttonscompet{
     border-radius:20px;
     padding:10px;
+}
+.centreInteret{
+display:flex;
+gap:150px;  
+}
+.pictureFlex{
+display:flex;
+gap:5px;
+
 }
