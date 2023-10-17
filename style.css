@@ -17,7 +17,7 @@ height:40px;
 border-radius:120px;
 }
  .titleicon{
-font-size:12px;
+font-size:11px;
 color:var(--color-gray);
 }
 p{
@@ -33,7 +33,7 @@ font-family: 'Segoe UI', sans-serif;
 font-size:15px;
  }
  header {
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -52,7 +52,7 @@ list-style-type: none;
 gap:30px;
 }
 .part2{
-border-right:1px solid gray;
+border-right:1px solid var(--color-gray);
 }
 .part3 a{
     display: flex;
@@ -65,8 +65,8 @@ max-width:30px;
 }
 
 .dimension{
-width:30px; 
-height:30px;
+width:20px; 
+height:20px;
 }
 input{
 width:300px; 
@@ -77,9 +77,8 @@ border-style: none;
 main{
     display:grid;
     grid-template-columns:800px 320px;
-    width:60%;
-    margin:auto;
-    margin-top:90px;
+    justify-content:center;
+    margin-top:120px;
     gap:20px;
 }
 .picture{
@@ -113,7 +112,7 @@ color:var(--color-gray);
     border:solid white;
 }
 #selection{
-display: flex;
+display:flex;
 gap:20px;
 }
 
@@ -122,7 +121,7 @@ max-width:100%;
 max-height:50%;
 }
 .activite{
-border-bottom: solid 1px grey;
+border-bottom: solid 1px var(--color-gray);
 padding: 10px;
 margin: 10px;
 }
@@ -199,9 +198,8 @@ gap:5px;
     text-decoration: underline;
 }
 footer{
-margin:auto;
-width:60%;
-color:gray;
+justify-content:center;
+color:var(--color-gray);
 }
 footer a{
 color:gray;
@@ -218,7 +216,7 @@ border-radius:8px;
 border: solid 1px var(--color-gray);
 }
 option{
-    color: gray;
+    color: var(--color-gray);
 }
 .buttonProfil{
 display:flex; 
