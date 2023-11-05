@@ -103,12 +103,12 @@ background-size:contain;
 }
 .buttons{
 border-radius:20px;
-padding:10px;
 border-style: none;
 font-weight:bold;
+padding:6px 16px;
 }
 #connexion{
-background-color: blue;
+background-color: rgb(97, 97, 197);
 }
 a{
 text-decoration: none;
