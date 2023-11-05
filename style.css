@@ -29,7 +29,7 @@ color: var(--color-gray)
 }
 body{
 background-color: rgb(232, 232, 232);
-font-family: 'Segoe UI', sans-serif;
+font-family: 'system-ui', sans-serif;
 font-size:15px;
  }
  header {
