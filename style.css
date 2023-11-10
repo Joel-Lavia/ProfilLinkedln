@@ -6,6 +6,7 @@ color: white;
 font-weight:bold;
 position:absolute;
 top:0;
+
 }
 :root{
 --color-gray:gray;
@@ -31,10 +32,6 @@ color:var(--color-gray);
 }
 p{
 color: var(--color-gray)
-}
-@font-face {
-    font-family: 'Segoe UI', sans-serif;
-    src: url("Segoe_UI/Segoe\ UI.ttf") format("truetype");
 }
 body{
 background-color: rgb(232, 232, 232);
