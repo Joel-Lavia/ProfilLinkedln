@@ -1,6 +1,6 @@
 .badge{
 background-color:#cb112D;
-padding:4px;
+padding:1px;
 border-radius:12px;
 color: white;
 font-weight:bold;
@@ -60,7 +60,7 @@ line-height:23px;
     align-items: center;
     gap:50px;
     background: white;
-    padding:9px;
+    padding:2px;
  }
 .part1{
 display: flex;
@@ -81,8 +81,8 @@ max-width:30px;
 }
 
 .dimension{
-width:20px; 
-height:20px;
+width:30px; 
+height:30px;
 }
 input{
 width:300px; 
