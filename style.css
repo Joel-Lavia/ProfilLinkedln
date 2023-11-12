@@ -1,6 +1,6 @@
 .badge{
 background-color:#cb112D;
-padding:1px;
+padding:3px;
 border-radius:12px;
 color: white;
 font-weight:bold;
@@ -159,9 +159,9 @@ background-color:#a19d9dbf;
 
 .boxsection{
 background-color: white;
-border: solid 1px grey;
-padding:12px;   
-border-radius:20px;
+border: solid 1px gray;
+padding:15px;   
+border-radius:15px;
 margin-bottom:10px;
 } 
 #selection2 img{
