@@ -210,7 +210,7 @@ display:flex;
 gap:5px;
 }
 .border-text:hover{
-    color: blue;
+    color:#0A66C2;
     text-decoration: underline;
 }
 footer{
